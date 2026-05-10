@@ -63,7 +63,7 @@ localStorage.setItem("user", JSON.stringify(res.data.user));
       {/* LOGO */}
       <div className="page-logo">
         <img src={logo} alt="logo" />
-        <h2>CivicSnap</h2>
+        <h2>CrimeSnap</h2>
       </div>
 
       {/* LEFT SIDE */}

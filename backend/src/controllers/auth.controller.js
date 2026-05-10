@@ -13,7 +13,8 @@ exports.register = async (req, res) => {
     const user = await User.create({
       name,
       email,
-      password: hashed
+      password: hashed,
+      role: "admin" // 👈 FORCE ADMIN ROLE
     });
 
     res.json(user);

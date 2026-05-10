@@ -11,7 +11,7 @@ const path = require("path");
 const connectDB = require("./config/db");
 
 const authRoutes = require(
-  "./routes/auth.routes"
+  "./routes/auth.route"
 );
 
 const complaintRoutes = require(
